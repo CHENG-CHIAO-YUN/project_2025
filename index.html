@@ -40,7 +40,7 @@
       font-family:"Noto Serif Hong Kong",cursive
     }
     h1{
-      font-family: "PMingLiU", "MingLiU", serif,cursive
+      font-family: "Microsoft JhengHei",cursive
     }
 
 
@@ -184,23 +184,35 @@ main {
       </form>
 
       <!-- 購物車按鈕 -->
-      <button class="btn btn-warning position-relative" type="button" data-bs-toggle="offcanvas" data-bs-target="#cartSidebar">
+      <button class="btn position-relative" type="button" data-bs-toggle="offcanvas" data-bs-target="#cartSidebar"
+        style="background-color: #fcba04; border-color: #FFC107; color: #000000;">
         <i class="fa-solid fa-cart-shopping"></i>
         <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" id="cart-counter">0</span>
-      </button>
+</button>
     </div>
       </div>
 
-
+      
   </nav>
 <main>
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./img/5 (1).png" class="d-block w-100" alt="Camera"  >
+<section>
+  <div id="intro" class="bg-image vh-100" style="background-image: url('./img/5 (1).png');">
+    <div class="mask" style="background-color: rgba(250, 182, 162, 0.15);"></div>
+
+    <div class="d-flex align-items-center justify-content-center h-100">
+      <h2 class="display-1 font-weight-bold mb-1" style="
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.55); /* 半透明黑色底色 */
+        display: inline-block;                 /* 讓區塊大小剛好符合文字 */
+        padding: 10px 30px;                    /* 為文字四周保留舒適的空間 */
+        border-radius: 12px;                   /* 圓角效果，讓視覺更柔和 */
+        text-shadow: 0 2px 4px rgba(0,0,0,0.3);/* 加上一點微弱的陰影讓字體更立體 */">
+        結合數位共享與價值共創之小眾水果網站設計研究
+      </h2>
     </div>
   </div>
-</div>
+
+</section>
 
 
 
@@ -210,7 +222,7 @@ main {
         <div class="tab-class text-center">
             <div class="row g-4">
                 <div class="col-lg-4 text-start">
-                <h1 class="display-4" style='font-family: "PMingLiU", "MingLiU", serif;'>四季水果</h1>
+                <h1 class="display-4" style='font-family: "Microsoft JhengHei";'>四季水果</h1>
                 </div>
 
 
@@ -267,7 +279,7 @@ main {
         花青素、類黃酮、維生素C、E
       </p>
       <p class="fw-bold">$90 / 盒</p>
-      <button class="btn add-cart-btn" style="background-color: #7ebf01; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
+      <button class="btn add-cart-btn" style="background-color: #d9d840; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
     </div>
   </div>
 </div>
@@ -284,7 +296,7 @@ main {
             花青素、維生素C、鐵、鈣
           </p>
           <p class="fw-bold">$120 / 斤</p>
-          <button class="btn add-cart-btn" style="background-color: #7ebf01; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
+          <button class="btn add-cart-btn" style="background-color: #d9d840; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
         </div>
       </div>
     </div>
@@ -301,7 +313,7 @@ main {
             維生素A、胡蘿蔔素、鉀、維生素C
           </p>
           <p class="fw-bold">$90 / 斤</p>
-          <button class="btn add-cart-btn" style="background-color: #7ebf01; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
+          <button class="btn add-cart-btn" style="background-color: #d9d840; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
         </div>
       </div>
     </div>
@@ -318,7 +330,7 @@ main {
             水分、膳食纖維、維生素C、鉀、鎂
           </p>
           <p class="fw-bold">$75 / 斤</p>
-          <button class="btn add-cart-btn" style="background-color: #7ebf01; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
+          <button class="btn add-cart-btn" style="background-color: #d9d840; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
         </div>
       </div>
     </div>
@@ -336,7 +348,7 @@ main {
             膳食纖維、維生素A、維生素C、B群
           </p>
           <p class="fw-bold">$99 / 斤</p>
-          <button class="btn add-cart-btn" style="background-color: #a9c191; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
+          <button class="btn add-cart-btn" style="background-color: #d9d840; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
         </div>
       </div>
     </div>
@@ -353,7 +365,7 @@ main {
             高水分、低熱量、瓜胺酸、維生素C
           </p>
           <p class="fw-bold">$18 / 斤</p>
-          <button class="btn add-cart-btn" style="background-color: #a9c191; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
+          <button class="btn add-cart-btn" style="background-color: #d9d840; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
         </div>
       </div>
     </div>
@@ -370,7 +382,7 @@ main {
             維生素、礦物質、膳食纖維、營養素
           </p>
           <p class="fw-bold">$30 / 顆</p>
-          <button class="btn add-cart-btn" style="background-color: #a9c191; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
+          <button class="btn add-cart-btn" style="background-color: #d9d840; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
         </div>
       </div>
     </div>
@@ -387,7 +399,7 @@ main {
             膳食纖維、葉酸、鐵、維生素B群
           </p>
           <p class="fw-bold">$79 / 斤</p>
-          <button class="btn add-cart-btn" style="background-color: #a9c191; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
+          <button class="btn add-cart-btn" style="background-color: #d9d840; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
         </div>
       </div>
     </div>
@@ -405,7 +417,7 @@ main {
             不飽和脂肪酸、維生素、膳食纖維
           </p>
           <p class="fw-bold">$69 / 斤</p>
-          <button class="btn add-cart-btn" style="background-color: #a9c191; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
+          <button class="btn add-cart-btn" style="background-color: #d9d840; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
         </div>
       </div>
     </div>
@@ -422,7 +434,7 @@ main {
             膳食纖維、維生素C、β-胡蘿蔔素
           </p>
           <p class="fw-bold">$12/ 顆</p>
-          <button class="btn add-cart-btn" style="background-color: #a9c191; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
+          <button class="btn add-cart-btn" style="background-color: #d9d840; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
         </div>
       </div>
     </div>
@@ -439,7 +451,7 @@ main {
             維生素C、β-胡蘿蔔素、木瓜酵素
           </p>
           <p class="fw-bold">$59 / 斤</p>
-          <button class="btn add-cart-btn" style="background-color: #a9c191; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
+          <button class="btn add-cart-btn" style="background-color: #d9d840; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
         </div>
       </div>
     </div>
@@ -456,7 +468,7 @@ main {
             葡萄糖、維生素、與礦物質
           </p>
           <p class="fw-bold">$ / 斤</p>
-          <button class="btn add-cart-btn" style="background-color: #a9c191; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
+          <button class="btn add-cart-btn" style="background-color: #d9d840; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
         </div>
       </div>
     </div>
@@ -475,7 +487,7 @@ main {
             維生素C、鉀、膳食纖維、葉酸
           </p>
           <p class="fw-bold">$300 / 盒</p>
-          <button class="btn add-cart-btn" style="background-color: #a9c191; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
+          <button class="btn add-cart-btn" style="background-color: #d9d840; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
         </div>
       </div>
     </div>
@@ -492,7 +504,7 @@ main {
             膳食纖維、維生素C、B群、葉酸
           </p>
           <p class="fw-bold">$250 / 盒</p>
-          <button class="btn add-cart-btn" style="background-color: #a9c191; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
+          <button class="btn add-cart-btn" style="background-color: #d9d840; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
         </div>
       </div>
     </div>
@@ -509,7 +521,7 @@ main {
             維生素C、維生素A、β-胡蘿蔔素、鉀
           </p>
           <p class="fw-bold">$100 / 盒</p>
-          <button class="btn add-cart-btn" style="background-color: #a9c191; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
+          <button class="btn add-cart-btn" style="background-color: #d9d840; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
         </div>
       </div>
     </div>
@@ -526,7 +538,7 @@ main {
             膳食纖維、鉀、維生素C、B群、葉酸
           </p>
           <p class="fw-bold">$75 / 斤</p>
-          <button class="btn add-cart-btn" style="background-color: #a9c191; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
+          <button class="btn add-cart-btn" style="background-color: #d9d840; color: rgb(0, 0, 0); border: none; width: 100%;">加入購物車</button>
         </div>
       </div>
     </div>
